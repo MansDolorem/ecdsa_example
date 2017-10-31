@@ -43,7 +43,6 @@ public:
 	void generate_public_key();
 	bool read(uint8_t* message);
 	void write(uint8_t* message);
-	//void generate_common_key();
 	void sign(uint8_t* message);
 	bool verify(uint8_t* message);
 	
